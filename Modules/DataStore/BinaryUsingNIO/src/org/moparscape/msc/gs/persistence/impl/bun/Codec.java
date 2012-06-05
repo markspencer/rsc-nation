@@ -1,4 +1,4 @@
-package org.moparscape.msc.gs.persistence.impl.bun;
+package org.rscnation.msc.gs.persistence.impl.bun;
 
 import java.nio.ByteBuffer;
 
