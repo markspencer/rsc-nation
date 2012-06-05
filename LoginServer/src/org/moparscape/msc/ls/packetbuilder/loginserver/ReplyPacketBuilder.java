@@ -1,7 +1,7 @@
-package org.moparscape.msc.ls.packetbuilder.loginserver;
+package org.rscnation.msc.ls.packetbuilder.loginserver;
 
-import org.moparscape.msc.ls.net.LSPacket;
-import org.moparscape.msc.ls.packetbuilder.LSPacketBuilder;
+import org.rscnation.msc.ls.net.LSPacket;
+import org.rscnation.msc.ls.packetbuilder.LSPacketBuilder;
 
 public class ReplyPacketBuilder {
     /**
