@@ -1,4 +1,4 @@
-package org.moparscape.msc.ls.net;
+package org.rscnation.msc.ls.net;
 
 import java.util.ArrayList;
 import java.util.List;
