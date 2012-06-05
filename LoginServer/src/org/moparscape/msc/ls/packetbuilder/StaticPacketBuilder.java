@@ -1,7 +1,7 @@
-package org.moparscape.msc.ls.packetbuilder;
+package org.rscnation.msc.ls.packetbuilder;
 
-import org.moparscape.msc.ls.Server;
-import org.moparscape.msc.ls.net.Packet;
+import org.rscnation.msc.ls.Server;
+import org.rscnation.msc.ls.net.Packet;
 
 /**
  * A mutable sequence of bytes used to construct the immutable
