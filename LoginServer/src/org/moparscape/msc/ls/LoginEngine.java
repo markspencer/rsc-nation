@@ -1,15 +1,15 @@
-package org.moparscape.msc.ls;
+package org.rscnation.msc.ls;
 
 import java.util.List;
 import java.util.TreeMap;
 
-import org.moparscape.msc.ls.model.World;
-import org.moparscape.msc.ls.net.FPacket;
-import org.moparscape.msc.ls.net.LSPacket;
-import org.moparscape.msc.ls.net.PacketQueue;
-import org.moparscape.msc.ls.packethandler.PacketHandler;
-import org.moparscape.msc.ls.packethandler.PacketHandlerDef;
-import org.moparscape.msc.ls.util.PersistenceManager;
+import org.rscnation.msc.ls.model.World;
+import org.rscnation.msc.ls.net.FPacket;
+import org.rscnation.msc.ls.net.LSPacket;
+import org.rscnation.msc.ls.net.PacketQueue;
+import org.rscnation.msc.ls.packethandler.PacketHandler;
+import org.rscnation.msc.ls.packethandler.PacketHandlerDef;
+import org.rscnation.msc.ls.util.PersistenceManager;
 
 public class LoginEngine extends Thread {
 	/**
