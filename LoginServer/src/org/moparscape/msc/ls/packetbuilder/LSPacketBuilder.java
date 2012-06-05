@@ -1,10 +1,10 @@
-package org.moparscape.msc.ls.packetbuilder;
+package org.rscnation.msc.ls.packetbuilder;
 
 import java.util.Random;
 
-import org.moparscape.msc.ls.LoginEngine;
-import org.moparscape.msc.ls.net.LSPacket;
-import org.moparscape.msc.ls.packethandler.PacketHandler;
+import org.rscnation.msc.ls.LoginEngine;
+import org.rscnation.msc.ls.net.LSPacket;
+import org.rscnation.msc.ls.packethandler.PacketHandler;
 
 
 public class LSPacketBuilder extends StaticPacketBuilder {
