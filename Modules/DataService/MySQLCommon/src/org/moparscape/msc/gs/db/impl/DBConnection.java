@@ -1,4 +1,4 @@
-package org.moparscape.msc.gs.db.impl;
+package org.rscnation.msc.gs.db.impl;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -6,8 +6,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-import org.moparscape.msc.config.Config;
-import org.moparscape.msc.gs.util.Logger;
+import org.rscnation.msc.config.Config;
+import org.rscnation.msc.gs.util.Logger;
 
 /**
  * Used to interact with the database.
