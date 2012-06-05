@@ -1,4 +1,4 @@
-package org.moparscape.msc.ls.net;
+package org.rscnation.msc.ls.net;
 
 import org.apache.mina.common.IoSession;
 
