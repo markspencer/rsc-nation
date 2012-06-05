@@ -1,4 +1,4 @@
--- MoparRSC DB Structure
+-- RSCNation DB Structure
 --
 -- ------------------------------------------------------
 -- Server version	5.1.49-1ubuntu8.1-log
