@@ -1,18 +1,18 @@
-package org.moparscape.msc.gs.db.impl;
+package org.rscnation.msc.gs.db.impl;
 
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.Iterator;
 
-import org.moparscape.msc.gs.Instance;
-import org.moparscape.msc.gs.core.GameEngine;
-import org.moparscape.msc.gs.db.ReportHandler;
-import org.moparscape.msc.gs.model.Player;
-import org.moparscape.msc.gs.model.World;
-import org.moparscape.msc.gs.model.snapshot.Activity;
-import org.moparscape.msc.gs.model.snapshot.Chatlog;
-import org.moparscape.msc.gs.model.snapshot.Snapshot;
-import org.moparscape.msc.gs.util.Logger;
+import org.rscnation.msc.gs.Instance;
+import org.rscnation.msc.gs.core.GameEngine;
+import org.rscnation.msc.gs.db.ReportHandler;
+import org.rscnation.msc.gs.model.Player;
+import org.rscnation.msc.gs.model.World;
+import org.rscnation.msc.gs.model.snapshot.Activity;
+import org.rscnation.msc.gs.model.snapshot.Chatlog;
+import org.rscnation.msc.gs.model.snapshot.Snapshot;
+import org.rscnation.msc.gs.util.Logger;
 
 class MySQLReportHandler implements ReportHandler {
 
@@ -63,9 +63,9 @@ class MySQLReportHandler implements ReportHandler {
 			Player from2) {
 
 		long time = GameEngine.getTime() / 1000;
-		String f = org.moparscape.msc.gs.tools.DataConversions
+		String f = org.rscnation.msc.gs.tools.DataConversions
 				.hashToUsername(from);
-		String a = org.moparscape.msc.gs.tools.DataConversions
+		String a = org.rscnation.msc.gs.tools.DataConversions
 				.hashToUsername(about);
 
 		Player about2 = World.getWorld().getPlayer(about);
