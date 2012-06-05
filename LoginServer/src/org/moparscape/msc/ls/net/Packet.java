@@ -1,9 +1,9 @@
-package org.moparscape.msc.ls.net;
+package org.rscnation.msc.ls.net;
 
 import java.net.InetSocketAddress;
 
 import org.apache.mina.common.IoSession;
-import org.moparscape.msc.ls.Server;
+import org.rscnation.msc.ls.Server;
 
 
 /**
