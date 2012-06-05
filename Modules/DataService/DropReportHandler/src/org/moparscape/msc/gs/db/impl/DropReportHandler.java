@@ -1,7 +1,7 @@
-package org.moparscape.msc.gs.db.impl;
+package org.rscnation.msc.gs.db.impl;
 
-import org.moparscape.msc.gs.db.ReportHandler;
-import org.moparscape.msc.gs.model.Player;
+import org.rscnation.msc.gs.db.ReportHandler;
+import org.rscnation.msc.gs.model.Player;
 
 class DropReportHandler implements ReportHandler {
 
