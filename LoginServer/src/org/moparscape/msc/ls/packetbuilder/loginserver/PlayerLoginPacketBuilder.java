@@ -1,14 +1,14 @@
-package org.moparscape.msc.ls.packetbuilder.loginserver;
+package org.rscnation.msc.ls.packetbuilder.loginserver;
 
 import java.util.List;
 
-import org.moparscape.msc.ls.Server;
-import org.moparscape.msc.ls.model.BankItem;
-import org.moparscape.msc.ls.model.InvItem;
-import org.moparscape.msc.ls.model.PlayerSave;
-import org.moparscape.msc.ls.model.World;
-import org.moparscape.msc.ls.net.LSPacket;
-import org.moparscape.msc.ls.packetbuilder.LSPacketBuilder;
+import org.rscnation.msc.ls.Server;
+import org.rscnation.msc.ls.model.BankItem;
+import org.rscnation.msc.ls.model.InvItem;
+import org.rscnation.msc.ls.model.PlayerSave;
+import org.rscnation.msc.ls.model.World;
+import org.rscnation.msc.ls.net.LSPacket;
+import org.rscnation.msc.ls.packetbuilder.LSPacketBuilder;
 
 
 public class PlayerLoginPacketBuilder {
