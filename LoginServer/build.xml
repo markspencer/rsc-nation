@@ -32,7 +32,7 @@
 
 
 	<target name="run" depends="jar">
-		<java classname="org.moparscape.msc.ls.Server" fork="true">
+		<java classname="org.rscnation.msc.ls.Server" fork="true">
 			<classpath>
 				<pathelement location="${lib}/mina.jar" />
 				<pathelement location="${lib}/xpp3.jar" />
