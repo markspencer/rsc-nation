@@ -1,6 +1,6 @@
-package org.moparscape.msc.ls.packetbuilder;
+package org.rscnation.msc.ls.packetbuilder;
 
-import org.moparscape.msc.ls.net.FPacket;
+import org.rscnation.msc.ls.net.FPacket;
 
 public class FPacketBuilder extends StaticPacketBuilder {
     /**
