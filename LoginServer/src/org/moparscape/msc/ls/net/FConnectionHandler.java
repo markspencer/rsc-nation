@@ -1,11 +1,11 @@
-package org.moparscape.msc.ls.net;
+package org.rscnation.msc.ls.net;
 
 import org.apache.mina.common.IdleStatus;
 import org.apache.mina.common.IoHandler;
 import org.apache.mina.common.IoSession;
 import org.apache.mina.filter.codec.ProtocolCodecFilter;
-import org.moparscape.msc.ls.LoginEngine;
-import org.moparscape.msc.ls.codec.FCodecFactory;
+import org.rscnation.msc.ls.LoginEngine;
+import org.rscnation.msc.ls.codec.FCodecFactory;
 
 
 /**
