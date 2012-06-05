@@ -1,4 +1,4 @@
-package org.moparscape.msc.ls.auth;
+package org.rscnation.msc.ls.auth;
 
 public interface Auth {
 	
