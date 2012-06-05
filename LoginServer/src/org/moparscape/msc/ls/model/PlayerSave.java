@@ -1,12 +1,12 @@
-package org.moparscape.msc.ls.model;
+package org.rscnation.msc.ls.model;
 
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-import org.moparscape.msc.ls.Server;
-import org.moparscape.msc.ls.util.DataConversions;
+import org.rscnation.msc.ls.Server;
+import org.rscnation.msc.ls.util.DataConversions;
 
 public class PlayerSave implements Serializable {
 
