@@ -1,4 +1,4 @@
-package org.moparscape.msc.ls.codec;
+package org.rscnation.msc.ls.codec;
 
 import org.apache.mina.filter.codec.ProtocolCodecFactory;
 import org.apache.mina.filter.codec.ProtocolDecoder;
