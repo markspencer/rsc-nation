@@ -1,4 +1,4 @@
-package org.moparscape.msc.ls;
+package org.rscnation.msc.ls;
 
 import java.io.File;
 import java.io.IOException;
@@ -12,13 +12,13 @@ import org.apache.mina.common.IoHandler;
 import org.apache.mina.transport.socket.nio.SocketAcceptor;
 import org.apache.mina.transport.socket.nio.SocketAcceptorConfig;
 import org.apache.mina.transport.socket.nio.SocketSessionConfig;
-import org.moparscape.msc.ls.model.PlayerSave;
-import org.moparscape.msc.ls.model.World;
-import org.moparscape.msc.ls.net.FConnectionHandler;
-import org.moparscape.msc.ls.net.LSConnectionHandler;
-import org.moparscape.msc.ls.persistence.StorageMedium;
-import org.moparscape.msc.ls.persistence.impl.StorageMediumFactory;
-import org.moparscape.msc.ls.util.Config;
+import org.rscnation.msc.ls.model.PlayerSave;
+import org.rscnation.msc.ls.model.World;
+import org.rscnation.msc.ls.net.FConnectionHandler;
+import org.rscnation.msc.ls.net.LSConnectionHandler;
+import org.rscnation.msc.ls.persistence.StorageMedium;
+import org.rscnation.msc.ls.persistence.impl.StorageMediumFactory;
+import org.rscnation.msc.ls.util.Config;
 
 public class Server {
 	public static StorageMedium storage;
