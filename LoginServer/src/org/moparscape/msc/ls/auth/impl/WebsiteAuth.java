@@ -1,4 +1,4 @@
-package org.moparscape.msc.ls.auth.impl;
+package org.rscnation.msc.ls.auth.impl;
 
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
@@ -7,9 +7,9 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLEncoder;
 
-import org.moparscape.msc.ls.auth.Auth;
-import org.moparscape.msc.ls.util.Config;
-import org.moparscape.msc.ls.util.DataConversions;
+import org.rscnation.msc.ls.auth.Auth;
+import org.rscnation.msc.ls.util.Config;
+import org.rscnation.msc.ls.util.DataConversions;
 
 class WebsiteAuth implements Auth {
 	
@@ -36,7 +36,7 @@ class WebsiteAuth implements Auth {
             uc.setUseCaches(false);
             uc.setAllowUserInteraction(false);
             uc.setInstanceFollowRedirects(false);
-            uc.setRequestProperty("User-Agent", "Mozilla/5.0 MoparClassic/" + version);
+            uc.setRequestProperty("User-Agent", "Mozilla/5.0 RSCNation/" + version);
             uc.setRequestProperty("Content-Type", "application/x-www-form-urlencoded");
             DataOutputStream out = new DataOutputStream(uc.getOutputStream());
             out.writeBytes("user=" + user + "&pass=" + pass);
