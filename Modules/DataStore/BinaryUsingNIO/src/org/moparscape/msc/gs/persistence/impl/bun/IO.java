@@ -1,4 +1,4 @@
-package org.moparscape.msc.gs.persistence.impl.bun;
+package org.rscnation.msc.gs.persistence.impl.bun;
 
 import java.io.File;
 import java.io.FileInputStream;
