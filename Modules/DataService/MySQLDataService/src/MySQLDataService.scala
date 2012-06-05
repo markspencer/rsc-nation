@@ -1,13 +1,13 @@
-package org.moparscape.msc.gs.db.impl
+package org.rscnation.msc.gs.db.impl
 
-import org.moparscape.msc.gs.db.DataService
+import org.rscnation.msc.gs.db.DataService
 import scala.collection.mutable.ListBuffer
 import java.util.List
 import collection.JavaConversions._
-import org.moparscape.msc.gs.model.World
+import org.rscnation.msc.gs.model.World
 import java.sql.PreparedStatement
 import java.sql.SQLException
-import org.moparscape.msc.gs.util.Logger
+import org.rscnation.msc.gs.util.Logger
 class MySQLDataService protected() extends DataService {
 
   private val conn = new DBConnection
