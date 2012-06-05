@@ -1,10 +1,10 @@
-package org.moparscape.msc.gs.persistence.impl.bun.codec;
+package org.rscnation.msc.gs.persistence.impl.bun.codec;
 
 import java.nio.ByteBuffer;
 
-import org.moparscape.msc.gs.model.definition.entity.NPCDef;
-import org.moparscape.msc.gs.persistence.impl.bun.ByteBufferUtil;
-import org.moparscape.msc.gs.persistence.impl.bun.Codec;
+import org.rscnation.msc.gs.model.definition.entity.NPCDef;
+import org.rscnation.msc.gs.persistence.impl.bun.ByteBufferUtil;
+import org.rscnation.msc.gs.persistence.impl.bun.Codec;
 
 public class NpcDefCodec implements Codec<NPCDef[]> {
 
