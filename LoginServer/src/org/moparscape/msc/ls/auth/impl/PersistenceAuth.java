@@ -1,7 +1,7 @@
-package org.moparscape.msc.ls.auth.impl;
+package org.rscnation.msc.ls.auth.impl;
 
-import org.moparscape.msc.ls.Server;
-import org.moparscape.msc.ls.auth.Auth;
+import org.rscnation.msc.ls.Server;
+import org.rscnation.msc.ls.auth.Auth;
 
 public class PersistenceAuth implements Auth {
 
