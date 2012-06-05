@@ -1,4 +1,4 @@
-package org.moparscape.msc.ls.net;
+package org.rscnation.msc.ls.net;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -6,8 +6,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-import org.moparscape.msc.ls.Server;
-import org.moparscape.msc.ls.util.Config;
+import org.rscnation.msc.ls.Server;
+import org.rscnation.msc.ls.util.Config;
 
 
 /**
