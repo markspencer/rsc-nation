@@ -7,8 +7,8 @@
 	<property name="bin" location="${base}/bin" />
 	<property name="jar" value="${base}/${name}.jar" />
 
-	<fileset id="mopar" dir="GameServer">
-		<include name="moparclassic.jar" />
+	<fileset id="rscnation" dir="GameServer">
+		<include name="rscnation.jar" />
 	</fileset>
 
 	<fileset id="production-classes" dir="${bin}">
@@ -20,7 +20,7 @@
 	</path>
 
 	<path id="library-path">
-		<fileset refid="mopar" />
+		<fileset refid="rscnation" />
 	</path>
 
 	<path id="master-path">
