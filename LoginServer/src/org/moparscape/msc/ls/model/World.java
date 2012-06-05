@@ -1,4 +1,4 @@
-package org.moparscape.msc.ls.model;
+package org.rscnation.msc.ls.model;
 
 import java.util.Collection;
 import java.util.List;
@@ -6,9 +6,9 @@ import java.util.TreeMap;
 import java.util.Map.Entry;
 
 import org.apache.mina.common.IoSession;
-import org.moparscape.msc.ls.Server;
-import org.moparscape.msc.ls.packetbuilder.loginserver.MiscPacketBuilder;
-import org.moparscape.msc.ls.util.DataConversions;
+import org.rscnation.msc.ls.Server;
+import org.rscnation.msc.ls.packetbuilder.loginserver.MiscPacketBuilder;
+import org.rscnation.msc.ls.util.DataConversions;
 
 public class World {
 	private MiscPacketBuilder actionSender = new MiscPacketBuilder();
