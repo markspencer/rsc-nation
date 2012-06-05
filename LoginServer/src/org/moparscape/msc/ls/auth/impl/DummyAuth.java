@@ -1,6 +1,6 @@
-package org.moparscape.msc.ls.auth.impl;
+package org.rscnation.msc.ls.auth.impl;
 
-import org.moparscape.msc.ls.auth.Auth;
+import org.rscnation.msc.ls.auth.Auth;
 
 class DummyAuth implements Auth {
 
