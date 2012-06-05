@@ -1,4 +1,4 @@
-package org.moparscape.msc.ls.model;
+package org.rscnation.msc.ls.model;
 
 import java.io.Serializable;
 
