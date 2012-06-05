@@ -8,8 +8,8 @@
 	<property name="common-lib" location="${base}/../MySQLCommon" />
 	<property name="jar" value="${base}/${name}.jar" />
 
-	<fileset id="mopar" dir="GameServer">
-		<include name="moparclassic.jar" />
+	<fileset id="rscnation" dir="GameServer">
+		<include name="rscnation.jar" />
 	</fileset>
 	
 	<fileset id="common-libraries" dir="${common-lib}">
@@ -26,7 +26,7 @@
 
 	<path id="library-path">
 		<fileset refid="common-libraries" />
-		<fileset refid="mopar" />
+		<fileset refid="rscnation" />
 	</path>
 
 	<path id="master-path">
