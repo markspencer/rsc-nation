@@ -1,4 +1,7 @@
-An emulator for an old Java MMORPG.
+..::RSCNation::..
+
+##This is the current setup for RSCNation on a dedicated host
+#
 
 Setup
 ======
@@ -11,8 +14,6 @@ Install a Web-Server
 Ensure all the paths are set correctly.
 
 Import Database.sql
-
-If you have any questions regarding that use Google.
 
 For account authentication (using the default config) you need to copy the auth.php in the LoginServer folder, and ensure that localhost/auth.php is pointed to it.
 
