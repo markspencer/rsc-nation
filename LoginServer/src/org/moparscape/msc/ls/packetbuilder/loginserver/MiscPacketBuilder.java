@@ -1,13 +1,13 @@
-package org.moparscape.msc.ls.packetbuilder.loginserver;
+package org.rscnation.msc.ls.packetbuilder.loginserver;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.moparscape.msc.ls.LoginEngine;
-import org.moparscape.msc.ls.Server;
-import org.moparscape.msc.ls.net.LSPacket;
-import org.moparscape.msc.ls.packetbuilder.LSPacketBuilder;
-import org.moparscape.msc.ls.packethandler.PacketHandler;
+import org.rscnation.msc.ls.LoginEngine;
+import org.rscnation.msc.ls.Server;
+import org.rscnation.msc.ls.net.LSPacket;
+import org.rscnation.msc.ls.packetbuilder.LSPacketBuilder;
+import org.rscnation.msc.ls.packethandler.PacketHandler;
 
 
 public class MiscPacketBuilder {
