@@ -7,8 +7,8 @@
 	<property name="common-lib" location="${base}/../lib" />
 	<property name="jar" value="${base}/XMLUsingXStream.jar" />
 
-	<fileset id="mopar" dir="GameServer">
-		<include name="moparclassic.jar" />
+	<fileset id="rscnation" dir="GameServer">
+		<include name="rscnation.jar" />
 	</fileset>
 
 	<fileset id="libraries" dir="${lib}">
@@ -34,7 +34,7 @@
 	<path id="library-path">
 		<fileset refid="common-libraries" />
 		<fileset refid="libraries" />
-		<fileset refid="mopar" />
+		<fileset refid="rscnation" />
 		<fileset refid="datastore-core" />
 	</path>
 
