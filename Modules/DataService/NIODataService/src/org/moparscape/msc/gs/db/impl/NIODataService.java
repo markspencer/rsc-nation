@@ -1,4 +1,4 @@
-package org.moparscape.msc.gs.db.impl;
+package org.rscnation.msc.gs.db.impl;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -9,7 +9,7 @@ import java.nio.channels.FileChannel;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.moparscape.msc.gs.db.DataService;
+import org.rscnation.msc.gs.db.DataService;
 
 public class NIODataService implements DataService {
 
