@@ -1,11 +1,11 @@
-package org.moparscape.msc.ls.codec;
+package org.rscnation.msc.ls.codec;
 
 import org.apache.mina.common.ByteBuffer;
 import org.apache.mina.common.IoSession;
 import org.apache.mina.filter.codec.ProtocolEncoder;
 import org.apache.mina.filter.codec.ProtocolEncoderOutput;
-import org.moparscape.msc.ls.Server;
-import org.moparscape.msc.ls.net.LSPacket;
+import org.rscnation.msc.ls.Server;
+import org.rscnation.msc.ls.net.LSPacket;
 
 
 /**
